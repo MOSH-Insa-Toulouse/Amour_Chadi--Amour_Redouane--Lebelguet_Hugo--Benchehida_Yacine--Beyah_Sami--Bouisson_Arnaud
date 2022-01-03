@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Library_Gaz_Sensor")(type "KiCad")(uri "${KIPRJMOD}/Library_Gaz_Sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "RN2483_Breakout")(type "KiCad")(uri "${KIPRJMOD}/RN2483_Breakout.kicad_sym")(options "")(descr ""))
+)
