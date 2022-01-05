@@ -17,7 +17,7 @@ Introduction : Ce projet s'inscrit dans le cadre de notre formation d'ingénieur
 ![image](https://user-images.githubusercontent.com/74780897/148241799-a8798eab-e498-44a4-9889-47ead873832f.png)
 
 
-# ******** Etape 1 : Micro-Nano-fabrication en salle blanche ********
+# ******** 1. Micro-Nano-fabrication en salle blanche ********
 
 Aujourd’hui les capteurs de gaz présentent un réel potentiel pour répondre aux problématiques environnementales. Pour rappel, l’objectif était de développer un capteur de gaz chimique à base de nanoparticules de trioxyde de tungstène (WO3), de l’intégrer dans un circuit électronique afin de mesurer la concentration de gaz et de la communiquer ensuite sur un Dashboard web en utilisant le protocole de communication LoRa.  Ce projet nous permet d’étudier et de déployer toute l’architecture IoT associée à un système connecté. Il nous a aussi permis de comprendre les enjeux liés aux objets connectés : le faible encombrement, la faible consommation énergétique et le faible coût. 
 
@@ -41,7 +41,7 @@ Une fois les contacts faits, nous avons réalisé la synthèse chimique des nano
 ---> Enfin, ce capteur répond à la problématique de faible consommation puisque la résistance électrique de chaque peigne interdigité est théoriquement de l’ordre de la centaine de MΩ, ce qui correspond à une consommation en courant électrique de quelques micro-ampères voire nanoampères. 
 
 
-# ******** CAO Electronique et réalisation du circuit *********
+# ******** 2. CAO Electronique et réalisation du circuit *********
 
 Une fois le capteur fabriqué, l'objectif était d'établir le circuit électronique suivant permettant de traduire la variation de résistance électrique du capteur (Isens), en tension analogique (ADC). Ce circuit inclut la puce fabriquée en AIME avec le boîtier TO5, un filtre RC passif passe-bas à l’entrée pour couper le bruit à hautes fréquences (50Hz) ainsi que le couplage capacitif avec le réseau à 230V, un amplificateur opérationnel Trans-impédance LTC1050 à deux étages, une résistance de Shunt, un filtre passe-bas actif en sortie de l’amplificateur et enfin un filtre passif anti-repliement en sortie du circuit côté ADC pour retirer le bruit introduit en cours de traitement.  
 
@@ -85,12 +85,12 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 ![image](https://user-images.githubusercontent.com/74780897/148250001-f208fb54-d1c8-46aa-91dd-d67bbd0dfa7a.png)
 
 
-# ******** Programmation Arduino pour la communication en LoRa avec le réseau TTN ********* 
+# ******** 3. Programmation Arduino pour la communication en LoRa sur TTN ********* 
 
 
 
 
-# ******** Flow NodeRed pour le dashboard web affichant les données du capteur côté utilisateur ********
+# ******** Flows NodeRed pour le dashboard web affichant les données du capteur ********
 
 
 # ******** Datasheet ********
