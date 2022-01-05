@@ -14,7 +14,8 @@ Introduction : Ce projet s'inscrit dans le cadre de notre formation d'ingénieur
 
 
 ******* Organisation de l'équipe *******
-![image](https://user-images.githubusercontent.com/74780897/148234312-cdb1ea1d-7880-4edd-8436-8709f02fa41b.png)
+
+![image](https://user-images.githubusercontent.com/74780897/148241799-a8798eab-e498-44a4-9889-47ead873832f.png)
 
 
 ******** Etape 1 : Micro-Nano-fabrication en salle blanche ********
