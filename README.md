@@ -60,6 +60,7 @@ Nous avons dans un second temps conçu la carte électronique permettant d'inté
 
 2) Réalisation du PCB visant à positionner les empreintes de chaque composant sur la carte non plus de manière symbolique mais de manière réelle. Y sont ainsi déssinés le routage des pistes de cuivre interconnectant les empreintes ainsi que les deux couches de cuivre (TOP et BOTTOM) et le plan de masse. Nous y avons appliqué les règles de conception de classe 2 en prenant en compte les moyens de fabrication de notre établissement (largeur des pistes et isolation minimum à 0.6 mm). Voici une image 2D et 3D de notre carte PCB simple face intégrant les composants électroniques traversants du côté TOP et les pistes du côté  BOTTOM avec quelques vias : 
 
+PCB et Routage
 ![image](https://user-images.githubusercontent.com/74780897/148241474-2ae13e45-672a-42c7-8ce5-e8f0fbf2911f.png)
 
 TOP VIEW
@@ -71,7 +72,9 @@ BOTTOM VIEW
 
 Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
 
-Le 
+![image](https://user-images.githubusercontent.com/74780897/148245227-0db397ed-bf3d-4daa-943a-fbce7ac5eade.png) ![image](https://user-images.githubusercontent.com/74780897/148245268-78971d83-4620-4ce0-92ab-51b995b0aee6.png)
+
+
         
 
 
