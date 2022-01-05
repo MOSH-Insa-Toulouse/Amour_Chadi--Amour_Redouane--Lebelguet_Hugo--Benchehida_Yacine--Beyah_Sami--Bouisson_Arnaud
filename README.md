@@ -7,40 +7,14 @@ Introduction : Ce projet s'inscrit dans le cadre de notre formation d'ingénieur
 ![image](https://user-images.githubusercontent.com/74780897/148231435-45145006-497f-4275-be46-3ff1465b531f.png)
 
 
-
-
-
-
-
-
-
-
-
 ******* Chronologie du projet ********
 
 ![image](https://user-images.githubusercontent.com/74780897/148228389-c45cbe69-aad9-4a1f-9217-174bfb960774.png)
 
 
 
-
-
-
-
-
-
-
-
 ******* Organisation de l'équipe *******
 ![image](https://user-images.githubusercontent.com/74780897/148234312-cdb1ea1d-7880-4edd-8436-8709f02fa41b.png)
-
-
-
-
-
-
-
-
-
 
 
 ******** Etape 1 : Micro-Nano-fabrication en salle blanche ********
@@ -52,19 +26,20 @@ Aujourd’hui les capteurs de gaz présentent un réel potentiel pour répondre 
 -	Une résistance chauffante de poly silicium enfouie et isolée électriquement par une couche de SiO₂. Elle permet de chauffer la puce et d’y réguler la température autour de 250°C, température optimale pour une meilleure sensibilité des capteurs d’aluminium.
 -	Un résistance d’aluminium en serpentin pour mesurer la température à la surface.
 -	Des électrodes pour la connexion aux appareils de mesure extérieurs. Pour mesurer cette résistance électrique, nous avons réalisé les contacts électriques par métallisation à l'aluminium. Plus précisément nous avons utilisé la technique de photogravure consistant à déposer une couche de résine photosensible sur l'aluminium, à insoler cette résine au niveau des zones d'aluminium que l'on souhaite retirer et à les attaquer chimiquement dans un bain acide.
+
 ![image](https://user-images.githubusercontent.com/74780897/148229191-f5715afd-bd67-4975-93c8-f305f55eaef4.png) 
 
 
 
-Une fois les contacts faits, nous avons réalisé la synthèse chimique des nanoparticules WO3 pour ensuite les intégrer par diélectrophorèse au sein des peignes interdigités. Cette technique consiste à déposer une fine goutte de nanoparticules sur le capteur et à appliquer pendant 60s un champ électrique alternatif oscillant à la fréquence de 100 KHz avec une amplitude de 10V, entre les électrodes des peignes interdigités afin d’y attirer et d’y piéger les nanoparticules. Voici une image au microscope optique de notre capteur après intégration des nanoparticules :
+Une fois les contacts faits, nous avons réalisé la synthèse chimique des nanoparticules WO3 pour ensuite les intégrer par diélectrophorèse au sein des peignes interdigités. Cette technique consiste à déposer une fine goutte de nanoparticules sur le capteur et à appliquer pendant 60s un champ électrique alternatif oscillant à la fréquence de 100 KHz avec une amplitude de 10V, entre les électrodes des peignes interdigités afin d’y attirer et d’y piéger les nanoparticules. 
+
+---> Il répond d'ailleurs à la problématique de faible coût et de respect de l’environnement puisque la synthèse chimique des batônnets de nanoparticules n’implique que quelques millilitres de solution réutilisables chaque année afin d’éviter tout gaspillage. La quantité a même été diminuée de moitié cette année par rapport aux années précédentes. Les produits de la synthèse sont également triés afin de ne pas polluer les eaux usées. Voici une image au microscope optique de notre capteur après intégration des nanoparticules :
+
 ![image](https://user-images.githubusercontent.com/74780897/148229293-9518c67d-b960-4d03-aa35-a8cddb975baa.png)
 
 
 
 ![image](https://user-images.githubusercontent.com/74780897/148229457-456d84f2-1b6b-40bd-b0bf-65f2c80dd207.png)
-
-
----> Il répond aussi à la problématique de faible coût et de respect de l’environnement puisque la synthèse chimique des batônnets de nanoparticules n’implique que quelques millilitres de solution réutilisables chaque année afin d’éviter tout gaspillage. La quantité a même été diminuée de moitié cette année par rapport aux années précédentes. Les produits de la synthèse sont également triés afin de ne pas polluer les eaux usées.
 
 ---> Enfin, ce capteur répond à la problématique de faible consommation puisque la résistance électrique de chaque peigne interdigité est théoriquement de l’ordre de la centaine de MΩ, ce qui correspond à une consommation en courant électrique de quelques micro-ampères voire nanoampères. 
         
