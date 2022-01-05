@@ -46,8 +46,6 @@ Une fois les contacts faits, nous avons réalisé la synthèse chimique des nano
 
 Une fois le capteur fabriqué, l'objectif était d'établir le circuit électronique suivant permettant de traduire la variation de résistance électrique du capteur (Isens), en tension analogique (ADC). Ce circuit inclut la puce fabriquée en AIME avec le boîtier TO5, un filtre RC passif passe-bas à l’entrée pour couper le bruit à hautes fréquences (50Hz) ainsi que le couplage capacitif avec le réseau à 230V, un amplificateur opérationnel Trans-impédance LTC1050 à deux étages, une résistance de Shunt, un filtre passe-bas actif en sortie de l’amplificateur et enfin un filtre passif anti-repliement en sortie du circuit côté ADC pour retirer le bruit introduit en cours de traitement.  
 
-![image](https://user-images.githubusercontent.com/74780897/148240096-3d299bd8-36a9-4e7a-8c4f-438c5ed27e9c.png)
-
 ![image](https://user-images.githubusercontent.com/74780897/148254694-57e4d97a-c8c7-4885-8672-b3a68aa8baac.png)
 
 
