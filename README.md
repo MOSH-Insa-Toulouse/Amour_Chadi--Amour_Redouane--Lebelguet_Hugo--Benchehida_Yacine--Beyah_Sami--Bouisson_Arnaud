@@ -47,7 +47,7 @@ Une fois les contacts faits, nous avons réalisé la synthèse chimique des nano
 
 ******** CAO Electronique et réalisation du circuit *********
 
-Une fois le capteur fabriqué, l'objectif était d'établir le circuit électronique suivant permettant de traduire la variation de résistance électrique du capteur en tension analogique : 
+Une fois le capteur fabriqué, l'objectif était d'établir le circuit électronique suivant permettant de traduire la variation de résistance électrique du capteur (Isens), en tension analogique (ADC): 
 
 ![image](https://user-images.githubusercontent.com/74780897/148240096-3d299bd8-36a9-4e7a-8c4f-438c5ed27e9c.png)
 
@@ -58,9 +58,12 @@ Nous avons dans un second temps conçu la carte électronique permettant d'inté
 
 ![image](https://user-images.githubusercontent.com/74780897/148240620-57bdce98-2a73-4cca-b73d-4eb1045c4272.png)
 
-2) Réalisation du PCB visant à positionner les empreintes de chaque composant sur la carte non plus de manière symbolique mais de manière réelle. Y sont ainsi déssinés le routage des pistes de cuivre interconnectant les empreintes ainsi que les deux couches de cuivre (TOP et BOTTOM) et le plan de masse. Voici une image de notre carte PCB double face intégrant les composants électroniques traversants : 
+2) Réalisation du PCB visant à positionner les empreintes de chaque composant sur la carte non plus de manière symbolique mais de manière réelle. Y sont ainsi déssinés le routage des pistes de cuivre interconnectant les empreintes ainsi que les deux couches de cuivre (TOP et BOTTOM) et le plan de masse. Voici une image 2D et 3D de notre carte PCB simple face intégrant les composants électroniques traversants : 
 
 ![image](https://user-images.githubusercontent.com/74780897/148241474-2ae13e45-672a-42c7-8ce5-e8f0fbf2911f.png)
+
+![image](https://user-images.githubusercontent.com/74780897/148242192-d44ebe81-8a72-42a9-81ac-7e294cc43bb0.png)
+
 
         
 
