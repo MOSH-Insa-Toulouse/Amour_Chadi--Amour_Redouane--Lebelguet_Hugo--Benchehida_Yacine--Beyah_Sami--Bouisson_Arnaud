@@ -72,7 +72,9 @@ BOTTOM VIEW
 
 Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
 
-![image](https://user-images.githubusercontent.com/74780897/148245227-0db397ed-bf3d-4daa-943a-fbce7ac5eade.png) ![image](https://user-images.githubusercontent.com/74780897/148245268-78971d83-4620-4ce0-92ab-51b995b0aee6.png)
+Capteur de gaz à nanoparticules
+
+![image](https://user-images.githubusercontent.com/74780897/148246015-0c47973e-57b2-47d9-9216-eb4cc820bd0c.png) ![image](https://user-images.githubusercontent.com/74780897/148246174-d2b05722-2c50-409d-910e-b2d065ded191.png)
 
 
         
