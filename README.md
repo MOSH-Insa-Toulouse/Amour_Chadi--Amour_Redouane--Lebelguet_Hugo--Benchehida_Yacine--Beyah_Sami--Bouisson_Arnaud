@@ -67,6 +67,7 @@ TOP et BOTTOM VIEW
 Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit. (cf. fichier csv pour plus d'informations "bills of materials" :
 
 - Capteur de gaz à nanoparticules
+
 ![image](https://user-images.githubusercontent.com/74780897/148249846-beb5565d-c839-41f4-b874-8f9406897837.png)
 
 
