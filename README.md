@@ -72,9 +72,13 @@ BOTTOM VIEW
 
 Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
 
-Capteur de gaz à nanoparticules
+- Capteur de gaz à nanoparticules
+![image](https://user-images.githubusercontent.com/74780897/148246364-e52cac33-272f-4386-8948-ff1c5fbddfd1.png) ![image](https://user-images.githubusercontent.com/74780897/148246174-d2b05722-2c50-409d-910e-b2d065ded191.png)
 
-![image](https://user-images.githubusercontent.com/74780897/148246015-0c47973e-57b2-47d9-9216-eb4cc820bd0c.png) ![image](https://user-images.githubusercontent.com/74780897/148246174-d2b05722-2c50-409d-910e-b2d065ded191.png)
+- un commutateur à glissière trois pattes afin de sélectionner au choix l'un des deux capteurs de capteurs de gaz : 
+![image](https://user-images.githubusercontent.com/74780897/148246720-a0ab246a-a4dc-416b-b20c-f2f431c89d14.png) ![image](https://user-images.githubusercontent.com/74780897/148246759-e756ce92-98fc-422f-8817-e6daa4441621.png)
+
+
 
 
         
