@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\chadi\Desktop\INSA\Projet_Gaz_Sensor\Amour_Chadi_Redouane\PCB_GAZ_SENSOR\PCB\PCB.kicad_sch</source>
+    <date>05/01/2022 07:02:15</date>
+    <tool>Eeschema (6.99.0-224-g211820a689)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SCHEMATIQUE GAZ SENSOR</title>
+        <company>INSA Toulouse</company>
+        <rev>1.0</rev>
+        <date>2022-01-01</date>
+        <source>PCB.kicad_sch</source>
+        <comment number="1" value="amour@etud.insa-toulouse.fr"/>
+        <comment number="2" value="REDOUANE AMOUR - CHADI AMOUR"/>
+        <comment number="3" value="5ISS-A2"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40893a5a-a0c0-4e40-add6-e2d7fd19b562</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2ff9f00-9fe2-42fe-9d5b-75820f85bf0a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b7eb1a-8ac3-482f-8f25-a64eb7dc9578</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e65fe98-14e0-4855-831d-8007c0446306</tstamps>
+    </comp>
+    <comp ref="J0">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="comment">Alimentation externe 0-15V</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="comment" value="Alimentation externe 0-15V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d54bd14-e354-4972-b5ae-e1b12ee3e93e</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d70129</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d70dd8</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d721e0</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d7164f</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d71177</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d71274</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d712a8</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d712db</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17df9fc1-59e1-4b9f-b403-66c4db7980ca</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R_CAL</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c53d867d-f307-4731-893a-4d66b9a43dc0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d533c335-4002-4b9c-91f5-3e238bb21c5d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>041c46be-078b-4635-877a-cd4608c06cd5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca60075c-78a1-4690-af21-b35a22ed7c58</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R_adjust</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78e75f19-ab91-4634-a00a-b4c70aa306b7</tstamps>
+    </comp>
+    <comp ref="S0">
+      <value>Sensor_Aime</value>
+      <footprint>Package_TO_SOT_THT:TO-5-10_Window</footprint>
+      <libsource lib="Library_Gaz_Sensor" part="Sensor_Aime" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9148335d-e347-4473-a915-e4a117e5f7eb</tstamps>
+    </comp>
+    <comp ref="SW0">
+      <value>SW_DPDT_x2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a470aa74-9edc-42dc-bf04-f668eb4e489e</tstamps>
+    </comp>
+    <comp ref="U0">
+      <value>LTC1050</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/1100fc.pdf</datasheet>
+      <libsource lib="Library_Gaz_Sensor" part="LTC1050" description="Single Precision, Zero-Drift Instrumentation Amplifier, Gain = 100, DIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ffe955c-7dc8-4f52-b9ec-9ab351bc4c02</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RN2483_Breakout</value>
+      <footprint>mes_empreintes:RN2483_FOOTPRINT</footprint>
+      <libsource lib="" part="RN2483_Breakout_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd90a657-c3aa-4cbe-a273-fb69c8c197e6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="RN2483_Breakout_1">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">RN2483_Breakout_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX_LoRa" type="output"/>
+        <pin num="2" name="RX_LoRa" type="input"/>
+        <pin num="3" name="CTS" type="passive"/>
+        <pin num="4" name="RTS" type="passive"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="3V3" type="input"/>
+        <pin num="7" name="VIN" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Library_Gaz_Sensor" part="LTC1050">
+      <description>Single Precision, Zero-Drift Instrumentation Amplifier, Gain = 100, DIP-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/1100fc.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC1050</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm_LongPads</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/1100fc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="no_connect"/>
+        <pin num="2" name="CMRR" type="no_connect"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="+" type="input"/>
+        <pin num="7" name="COMP" type="no_connect"/>
+        <pin num="8" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Library_Gaz_Sensor" part="Sensor_Aime">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Sensor_Aime</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TempSensor" type="input"/>
+        <pin num="2" name="GazSensorRight" type="input"/>
+        <pin num="3" name="HeatResistor" type="input"/>
+        <pin num="4" name="GazSensorRight" type="input"/>
+        <pin num="5" name="" type="no_connect"/>
+        <pin num="6" name="TempSensor" type="input"/>
+        <pin num="7" name="GazSensorLeft" type="input"/>
+        <pin num="8" name="HeatResistor" type="input"/>
+        <pin num="9" name="GazSensorLeft" type="input"/>
+        <pin num="10" name="" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Library_Gaz_Sensor">
+      <uri>C:\Users\chadi\Desktop\INSA\Projet_Gaz_Sensor\Amour_Chadi_Redouane\PCB_GAZ_SENSOR\PCB/Library_Gaz_Sensor.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="P1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="S0" pin="2" pinfunction="GazSensorRight" pintype="input"/>
+      <node ref="S0" pin="9" pinfunction="GazSensorLeft" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="3V3" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="P1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="S0" pin="1" pinfunction="TempSensor" pintype="input"/>
+      <node ref="U0" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="+15V">
+      <node ref="J0" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="S0" pin="8" pinfunction="HeatResistor" pintype="input"/>
+    </net>
+    <net code="4" name="/0(Rx)">
+      <node ref="P4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="5" name="/1(Tx)">
+      <node ref="P4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="6" name="/2">
+      <node ref="P4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="7" name="/3(**)">
+      <node ref="P4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="8" name="/4">
+      <node ref="P4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="9" name="/5(**)">
+      <node ref="P4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="10" name="/6(**)">
+      <node ref="P4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="11" name="/7">
+      <node ref="P4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="12" name="/8">
+      <node ref="P3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RTS" pintype="passive"/>
+    </net>
+    <net code="13" name="/9(**)">
+      <node ref="P3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CTS" pintype="passive"/>
+    </net>
+    <net code="14" name="/10(**{slash}SS)">
+      <node ref="P3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RX_LoRa" pintype="input"/>
+    </net>
+    <net code="15" name="/11(**{slash}MOSI)">
+      <node ref="P3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TX_LoRa" pintype="output"/>
+    </net>
+    <net code="16" name="/12(MISO)">
+      <node ref="P3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="17" name="/13(SCK)">
+      <node ref="P3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="18" name="/A2">
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="/A3">
+      <node ref="P2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="/A4(SDA)">
+      <node ref="P2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="/A5(SCL)">
+      <node ref="P2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="/IOREF">
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/Reset">
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/Vin">
+      <node ref="P1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="25" name="ADC_GAZ">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J0" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="S0" pin="3" pinfunction="HeatResistor" pintype="input"/>
+      <node ref="U0" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U0" pin="8" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(S0-GazSensorLeft)">
+      <node ref="S0" pin="7" pinfunction="GazSensorLeft" pintype="input"/>
+      <node ref="SW0" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(S0-GazSensorRight)">
+      <node ref="S0" pin="4" pinfunction="GazSensorRight" pintype="input"/>
+      <node ref="SW0" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(SW0A-B)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW0" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(U0-+)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U0" pin="6" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U0--)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U0" pin="3" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="33" name="TempADC">
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="S0" pin="6" pinfunction="TempSensor" pintype="input"/>
+    </net>
+    <net code="34" name="unconnected-(P1-Pin_1)">
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(P1-Pin_6)">
+      <node ref="P1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(P1-Pin_7)">
+      <node ref="P1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(P3-Pin_1)">
+      <node ref="P3" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(P3-Pin_2)">
+      <node ref="P3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(P3-Pin_3)">
+      <node ref="P3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(P5-Pin_1)">
+      <node ref="P5" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(P6-Pin_1)">
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(P7-Pin_1)">
+      <node ref="P7" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(P8-Pin_1)">
+      <node ref="P8" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(S0-Pad5)">
+      <node ref="S0" pin="5" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(S0-Pad10)">
+      <node ref="S0" pin="10" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U0-CMRR)">
+      <node ref="U0" pin="2" pinfunction="CMRR" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U0-COMP)">
+      <node ref="U0" pin="7" pinfunction="COMP" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U0-GND)">
+      <node ref="U0" pin="1" pinfunction="GND" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-VIN)">
+      <node ref="U1" pin="7" pinfunction="VIN" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
