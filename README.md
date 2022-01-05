@@ -80,7 +80,8 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 - un amplificateur transimpédance : 
 ![image](https://user-images.githubusercontent.com/74780897/148249265-d36b3cd6-2994-4987-9736-ac52a10a52e8.png)
 
-- Le module LoRa et son breakout board : 
+- Le module LoRa et son breakout board. Nous avons nous-mêmes édité le footprint en prenant soin d'y placer les pads à un pas de 2.54 mm et les trous de perçage permettant de fixer le module : 
+
 ![image](https://user-images.githubusercontent.com/74780897/148250001-f208fb54-d1c8-46aa-91dd-d67bbd0dfa7a.png)
 
 
