@@ -42,6 +42,25 @@ Une fois les contacts faits, nous avons réalisé la synthèse chimique des nano
 ![image](https://user-images.githubusercontent.com/74780897/148229457-456d84f2-1b6b-40bd-b0bf-65f2c80dd207.png)
 
 ---> Enfin, ce capteur répond à la problématique de faible consommation puisque la résistance électrique de chaque peigne interdigité est théoriquement de l’ordre de la centaine de MΩ, ce qui correspond à une consommation en courant électrique de quelques micro-ampères voire nanoampères. 
+
+
+******** CAO Electronique et réalisation du circuit *********
+
+Une fois le capteur fabriqué, l'objectif était d'établir le circuit électronique suivant permettant de traduire la variation de résistance électrique du capteur en tension analogique : 
+
+![image](https://user-images.githubusercontent.com/74780897/148240096-3d299bd8-36a9-4e7a-8c4f-438c5ed27e9c.png)
+
+
+Nous avons dans un second temps conçu la carte électronique permettant d'intégrer l'ensemble du circuit. Nous avons pour cela utilisé le logiciel KiCad logiciel KiCad en deux étapes : 
+
+1) Réalisation schématique du circuit visant simplement à positionner les symboles de chaque composants, à les connecter et à leur associer leur empreinte (footprint): 
+
+![image](https://user-images.githubusercontent.com/74780897/148240620-57bdce98-2a73-4cca-b73d-4eb1045c4272.png)
+
+2) Réalisation du PCB visant à positionner les empreintes de chaque composant sur la carte non plus de manière symbolique mais de manière réelle. Y sont ainsi déssinés le routage des pistes de cuivre interconnectant les empreintes ainsi que les deux couches de cuivre (TOP et BOTTOM) et le plan de masse. Voici une image de notre carte PCB double face intégrant les composants électroniques traversants : 
+
+![image](https://user-images.githubusercontent.com/74780897/148241474-2ae13e45-672a-42c7-8ce5-e8f0fbf2911f.png)
+
         
 
 
