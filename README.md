@@ -50,9 +50,9 @@ Une fois le capteur fabriqué, l'objectif était d'établir le circuit électron
 
 
 
-Nous avons dans un second temps conçu la carte électronique permettant d'intégrer l'ensemble du circuit. Nous avons pour cela utilisé le logiciel KiCad logiciel KiCad en deux étapes : 
+Nous avons dans un second temps conçu la carte électronique permettant d'intégrer l'ensemble du circuit. Nous avons pour cela utilisé le logiciel KiCad en deux étapes : 
 
-1) Réalisation schématique du circuit visant simplement à positionner les symboles de chaque composant, à les connecter et à leur associer leur empreinte (footprint): 
+1) Réalisation schématique du circuit visant simplement à positionner les symboles de chaque composant, à les connecter et à leur associer leur empreinte (footprint). Ce schéma électrique est constitué de trois parties : le circuit pour le capteur de gaz, l'arduino permettant de récupérer la valeur analogique côté ADC en sortie du circuit et le module RF de communication LoRa connecté aux pins digitaux de l'arduino : 
 
 ![image](https://user-images.githubusercontent.com/74780897/148240620-57bdce98-2a73-4cca-b73d-4eb1045c4272.png)
 
