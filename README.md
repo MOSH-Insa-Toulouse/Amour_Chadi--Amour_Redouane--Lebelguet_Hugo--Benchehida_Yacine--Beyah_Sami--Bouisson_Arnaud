@@ -67,10 +67,18 @@ TOP et BOTTOM VIEW
 Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
 
 - Capteur de gaz à nanoparticules
-![image](https://user-images.githubusercontent.com/74780897/148246364-e52cac33-272f-4386-8948-ff1c5fbddfd1.png) ![image](https://user-images.githubusercontent.com/74780897/148246174-d2b05722-2c50-409d-910e-b2d065ded191.png)
+![image](https://user-images.githubusercontent.com/74780897/148248876-b62280c3-1cbe-4ecc-8098-570c4f070d41.png) ![image](https://user-images.githubusercontent.com/74780897/148246174-d2b05722-2c50-409d-910e-b2d065ded191.png)
 
 - un commutateur à glissière trois pattes afin de sélectionner au choix l'un des deux capteurs de capteurs de gaz : 
 ![image](https://user-images.githubusercontent.com/74780897/148246720-a0ab246a-a4dc-416b-b20c-f2f431c89d14.png) ![image](https://user-images.githubusercontent.com/74780897/148246759-e756ce92-98fc-422f-8817-e6daa4441621.png)
+
+- Un bornier à vis 2 pattes pour l'alimentation externe de 0 à 15V pour la résistance chauffante : 
+![image](https://user-images.githubusercontent.com/74780897/148249086-0fc0fce7-8f0a-4d01-a988-1b0626394b62.png)
+
+- un amplificateur transimpédance : 
+![image](https://user-images.githubusercontent.com/74780897/148249265-d36b3cd6-2994-4987-9736-ac52a10a52e8.png)
+
+
 
 
 
