@@ -54,17 +54,24 @@ Une fois le capteur fabriqué, l'objectif était d'établir le circuit électron
 
 Nous avons dans un second temps conçu la carte électronique permettant d'intégrer l'ensemble du circuit. Nous avons pour cela utilisé le logiciel KiCad logiciel KiCad en deux étapes : 
 
-1) Réalisation schématique du circuit visant simplement à positionner les symboles de chaque composants, à les connecter et à leur associer leur empreinte (footprint): 
+1) Réalisation schématique du circuit visant simplement à positionner les symboles de chaque composant, à les connecter et à leur associer leur empreinte (footprint): 
 
 ![image](https://user-images.githubusercontent.com/74780897/148240620-57bdce98-2a73-4cca-b73d-4eb1045c4272.png)
 
-2) Réalisation du PCB visant à positionner les empreintes de chaque composant sur la carte non plus de manière symbolique mais de manière réelle. Y sont ainsi déssinés le routage des pistes de cuivre interconnectant les empreintes ainsi que les deux couches de cuivre (TOP et BOTTOM) et le plan de masse. Voici une image 2D et 3D de notre carte PCB simple face intégrant les composants électroniques traversants : 
+2) Réalisation du PCB visant à positionner les empreintes de chaque composant sur la carte non plus de manière symbolique mais de manière réelle. Y sont ainsi déssinés le routage des pistes de cuivre interconnectant les empreintes ainsi que les deux couches de cuivre (TOP et BOTTOM) et le plan de masse. Nous y avons appliqué les règles de conception de classe 2 en prenant en compte les moyens de fabrication de notre établissement (largeur des pistes et isolation minimum à 0.6 mm). Voici une image 2D et 3D de notre carte PCB simple face intégrant les composants électroniques traversants du côté TOP et les pistes du côté  BOTTOM avec quelques vias : 
 
 ![image](https://user-images.githubusercontent.com/74780897/148241474-2ae13e45-672a-42c7-8ce5-e8f0fbf2911f.png)
 
+TOP VIEW
 ![image](https://user-images.githubusercontent.com/74780897/148242192-d44ebe81-8a72-42a9-81ac-7e294cc43bb0.png)
 
+BOTTOM VIEW 
+![image](https://user-images.githubusercontent.com/74780897/148244941-4548b82c-7081-47e3-9264-f02e4539d78c.png)
 
+
+Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
+
+Le 
         
 
 
