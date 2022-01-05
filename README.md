@@ -60,11 +60,8 @@ Nous avons dans un second temps conçu la carte électronique permettant d'inté
 PCB et Routage
 ![image](https://user-images.githubusercontent.com/74780897/148241474-2ae13e45-672a-42c7-8ce5-e8f0fbf2911f.png)
 
-TOP VIEW
-![image](https://user-images.githubusercontent.com/74780897/148242192-d44ebe81-8a72-42a9-81ac-7e294cc43bb0.png)
-
-BOTTOM VIEW 
-![image](https://user-images.githubusercontent.com/74780897/148244941-4548b82c-7081-47e3-9264-f02e4539d78c.png)
+TOP et BOTTOM VIEW
+![image](https://user-images.githubusercontent.com/74780897/148248571-5c3752bf-bf55-4adc-965c-9175450625c6.png)
 
 
 Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
