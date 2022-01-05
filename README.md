@@ -48,6 +48,9 @@ Une fois le capteur fabriqué, l'objectif était d'établir le circuit électron
 
 ![image](https://user-images.githubusercontent.com/74780897/148240096-3d299bd8-36a9-4e7a-8c4f-438c5ed27e9c.png)
 
+![image](https://user-images.githubusercontent.com/74780897/148254694-57e4d97a-c8c7-4885-8672-b3a68aa8baac.png)
+
+
 
 Nous avons dans un second temps conçu la carte électronique permettant d'intégrer l'ensemble du circuit. Nous avons pour cela utilisé le logiciel KiCad logiciel KiCad en deux étapes : 
 
