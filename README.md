@@ -64,10 +64,11 @@ TOP et BOTTOM VIEW
 ![image](https://user-images.githubusercontent.com/74780897/148248571-5c3752bf-bf55-4adc-965c-9175450625c6.png)
 
 
-Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit : 
+Voici la liste compléte des composants principaux avec leur symbole et leur empreinte, que nous avons utilisés pour ce circuit. (cf. fichier csv pour plus d'informations "bills of materials" :
 
 - Capteur de gaz à nanoparticules
-![image](https://user-images.githubusercontent.com/74780897/148248876-b62280c3-1cbe-4ecc-8098-570c4f070d41.png) ![image](https://user-images.githubusercontent.com/74780897/148246174-d2b05722-2c50-409d-910e-b2d065ded191.png)
+![image](https://user-images.githubusercontent.com/74780897/148249846-beb5565d-c839-41f4-b874-8f9406897837.png)
+
 
 - un commutateur à glissière trois pattes afin de sélectionner au choix l'un des deux capteurs de capteurs de gaz : 
 ![image](https://user-images.githubusercontent.com/74780897/148246720-a0ab246a-a4dc-416b-b20c-f2f431c89d14.png) ![image](https://user-images.githubusercontent.com/74780897/148246759-e756ce92-98fc-422f-8817-e6daa4441621.png)
@@ -77,6 +78,9 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 
 - un amplificateur transimpédance : 
 ![image](https://user-images.githubusercontent.com/74780897/148249265-d36b3cd6-2994-4987-9736-ac52a10a52e8.png)
+
+- Le module LoRa et son breakout board : 
+![image](https://user-images.githubusercontent.com/74780897/148250001-f208fb54-d1c8-46aa-91dd-d67bbd0dfa7a.png)
 
 
 
