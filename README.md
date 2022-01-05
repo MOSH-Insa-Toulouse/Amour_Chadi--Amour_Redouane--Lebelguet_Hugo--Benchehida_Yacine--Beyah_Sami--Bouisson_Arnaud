@@ -36,7 +36,8 @@ Une fois les contacts faits, nous avons réalisé la synthèse chimique des nano
 
 ---> Il répond d'ailleurs à la problématique de faible coût et de respect de l’environnement puisque la synthèse chimique des batônnets de nanoparticules n’implique que quelques millilitres de solution réutilisables chaque année afin d’éviter tout gaspillage. La quantité a même été diminuée de moitié cette année par rapport aux années précédentes. Les produits de la synthèse sont également triés afin de ne pas polluer les eaux usées. Voici une image au microscope optique de notre capteur après intégration des nanoparticules :
 
-![image](https://user-images.githubusercontent.com/74780897/148247050-023a153e-0810-49ff-a663-37364674bb5f.png) ![image](https://user-images.githubusercontent.com/74780897/148229457-456d84f2-1b6b-40bd-b0bf-65f2c80dd207.png)
+![image](https://user-images.githubusercontent.com/74780897/148247050-023a153e-0810-49ff-a663-37364674bb5f.png) ![image](https://user-images.githubusercontent.com/74780897/148247278-50ccd44b-96d9-4411-911e-44d410e7235c.png)
+
 
 ---> Enfin, ce capteur répond à la problématique de faible consommation puisque la résistance électrique de chaque peigne interdigité est théoriquement de l’ordre de la centaine de MΩ, ce qui correspond à une consommation en courant électrique de quelques micro-ampères voire nanoampères. 
 
