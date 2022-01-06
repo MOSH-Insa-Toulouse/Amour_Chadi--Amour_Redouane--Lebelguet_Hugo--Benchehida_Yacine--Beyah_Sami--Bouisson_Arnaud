@@ -6,13 +6,13 @@ Introduction : Ce projet s'inscrit dans le cadre de notre formation d'ingénieur
 ![image](https://user-images.githubusercontent.com/74780897/148231435-45145006-497f-4275-be46-3ff1465b531f.png)
 
 
-**Chronologie du projet
+**Chronologie du projet**
 
 ![image](https://user-images.githubusercontent.com/74780897/148228389-c45cbe69-aad9-4a1f-9217-174bfb960774.png)
 
 
 
-**Organisation de l'équipe
+**Organisation de l'équipe**
 
 ![image](https://user-images.githubusercontent.com/74780897/148241799-a8798eab-e498-44a4-9889-47ead873832f.png)
 
