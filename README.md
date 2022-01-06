@@ -85,12 +85,12 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 ![image](https://user-images.githubusercontent.com/74780897/148250001-f208fb54-d1c8-46aa-91dd-d67bbd0dfa7a.png)
 
 
-# ******** 3. Programmation Arduino pour la communication en LoRa sur TTN ********* 
+# ***** 3. Programmation Arduino pour la communication en LoRa sur TTN *****
 
 
 
 
-# ******** Flows NodeRed pour le dashboard web affichant les données du capteur ********
+# ******** Flows NodeRed pour le dashboard web ********
 
 
 # ******** Datasheet ********
