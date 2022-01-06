@@ -71,7 +71,7 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 ![image](https://user-images.githubusercontent.com/74780897/148249846-beb5565d-c839-41f4-b874-8f9406897837.png)
 
 
-- un commutateur à glissière trois pattes afin de sélectionner au choix l'un des deux capteurs de capteurs de gaz : 
+- un commutateur à glissière trois pattes afin de sélectionner au choix l'un des deux capteurs de gaz : 
 ![image](https://user-images.githubusercontent.com/74780897/148246720-a0ab246a-a4dc-416b-b20c-f2f431c89d14.png) ![image](https://user-images.githubusercontent.com/74780897/148246759-e756ce92-98fc-422f-8817-e6daa4441621.png)
 
 - Un bornier à vis 2 pattes pour l'alimentation externe de 0 à 15V pour la résistance chauffante : 
