@@ -95,7 +95,7 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 
 # *** Datasheet ***
 
-
+Dans l’industrie électronique, il est standard d’accompagner chaque composant d’une fiche technique fournissant les caractéristiques de fonctionnement standard, les résultats d’essais, les recommandations d’usage et d’autres renseignements. Vous trouverez dans le dépôt, la datasheet que l'on a réalisé.
 
         
 
