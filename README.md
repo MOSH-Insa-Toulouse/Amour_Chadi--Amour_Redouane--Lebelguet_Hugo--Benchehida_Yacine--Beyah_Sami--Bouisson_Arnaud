@@ -85,14 +85,6 @@ Voici la liste compléte des composants principaux avec leur symbole et leur emp
 ![image](https://user-images.githubusercontent.com/74780897/148250001-f208fb54-d1c8-46aa-91dd-d67bbd0dfa7a.png)
 
 
-# *** 3. Programmation Arduino pour la communication en LoRa sur TTN ***
-
-
-
-
-# *** Flows NodeRed pour le dashboard web ***
-
-
 # *** Datasheet ***
 
 Dans l’industrie électronique, il est standard d’accompagner chaque composant d’une fiche technique fournissant les caractéristiques de fonctionnement standard, les résultats d’essais, les recommandations d’usage et d’autres renseignements. Vous trouverez dans le dépôt, la datasheet que l'on a réalisé.
